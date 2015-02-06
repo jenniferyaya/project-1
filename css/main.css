@@ -44,10 +44,10 @@ img {
 	width: 100%;
 }
 figure {
-	border: .25em solid lightgrey;
+	border: .15em solid #f54869;
 	border-radius: 1em;
 	margin: 1em;
-	background-color: #fff;
+	background-color: #fbd3da;
 	padding: .50em;
 }
 
