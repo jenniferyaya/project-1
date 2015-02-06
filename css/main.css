@@ -1,5 +1,38 @@
+html {
+	background-color: #fff;
+}
+
+body {
+	margin: 0em;
+}
+
 header {
 	background-color: #f5db48;
-	padding: 2.5em;
-	color: f54869;
+	text-align: center;
 }
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+	color: #f54869;
+	padding: 0.25em;
+	line-height: 2rem;
+	margin: 0em;
+}
+
+nav {
+color: #fff;
+display: inline-block;
+margin: 0em 0em 1em 0em;
+
+}
+
+nav li {
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	background-color: #2a6934;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+
