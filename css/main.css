@@ -36,7 +36,7 @@ nav li {
 	padding: 0.5em;
 }
 
-h3, h4 {
+h2, h3 {
 	color: #f54869;
 }
 
@@ -49,4 +49,11 @@ figure {
 	margin: 1em;
 	background-color: #fff;
 	padding: .50em;
+}
+
+h2 {
+	border-top: solid 0.15em;
+	border-top-color: #f5db48;
+	margin: 0.5em;
+	padding: 0.5em 0.5em 0.5em 0em;
 }
