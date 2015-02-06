@@ -36,3 +36,17 @@ nav li {
 	padding: 0.5em;
 }
 
+h3, h4 {
+	color: #f54869;
+}
+
+img {
+	width: 100%;
+}
+figure {
+	border: .25em solid lightgrey;
+	border-radius: 1em;
+	margin: 1em;
+	background-color: #fff;
+	padding: .50em;
+}
