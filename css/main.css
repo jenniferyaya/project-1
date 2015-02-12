@@ -9,21 +9,24 @@ body {
 header {
 	background-color: #f5db48;
 	text-align: center;
+	padding: 0em;
+	margin: 0em;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 4rem;
 	text-align: center;
 	color: #f54869;
-	padding: 0.25em;
-	line-height: 2rem;
-	margin: 0em;
+	padding: 0.35em;
 	font-family: 'Condiment', cursive;
+	margin: 0em;
 }
 
 p {
-	padding: 1em 0.5em 0em 0.5em;
+	padding: 1em 0.5em 0em 1em;
 	margin: 0em;
+	font-family: 'Merriweather', serif;
+	line-height: 1.4em;
 }
 
 .intro {
@@ -59,13 +62,14 @@ nav a {
 h2, h3 {
 	color: #f54869;
 	font-family: 'Condiment', cursive;
+	margin-left: 1em;
 }
 
 h4 {
 	font-style: italic;
 	padding: 0em 0.5 em 0.5em 0.5em;
 	font-weight: normal;
-	margin: 0.5em;
+	margin: 1em;
 }
 
 img {
@@ -94,26 +98,32 @@ h2 {
 
 dd {
 	margin: 0em;
-	padding: 0.5em;
+	padding: 01em;
 }
 
 dt {
-	padding: 0.5em;
+	padding: 1em;
 	font-weight: bold;
 }
 
-.quotation {
+blockquote {
 	text-align: center;
 	color: #f54869;
+	line-height: 17px;
+	font-style: italic;
+	padding: 8px;
+	margin: 6px;
+}
+
+blockquote:before {
+content: open-quote;
+display: block;
+font-size: 2.5rem;
+font-family: 'Merriweather', serif;
 }
 
 .citation {
 	margin: 0.50em;
-}
-
-.quotation {
-	line-height: 15px;
-	font-style: italic;
 }
 
 .sources {
@@ -123,4 +133,7 @@ dt {
 
 .wiki {
 	color: #f54869;
+}
+
+
 }
